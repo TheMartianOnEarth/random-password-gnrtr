@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+
+</head>
+<body>
+
+    <main class="flex">
+
+        <div class="container">
+            <div class="upperSection">
+                <h1 class="heading">Generate a <br> <span class="heading-green">random password</span></h1>
+                <h2 class="sub-heading">Never use an insecure password again.</h2> 
+                <span id="password-slider-text">Length: <label for="slider" id="sliderNumber">12</label></span>
+                
+                <input type="range" min="8" max="14" val="12" class="slider" name="slider" id="slider"></input>
+
+                <button id="btn-el" class="btn" > <i class="fa fa-flash"></i> Generate Passwords </button>
+            </div>
+
+            <hr>
+
+            <div class="lowerSection">
+                <div class="generatedPassword" id="pw-1-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+                <div class="generatedPassword" id="pw-2-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+                <div class="generatedPassword" id="pw-3-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+                <div class="generatedPassword" id="pw-4-el"><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                </div>
+                <div id="letter-main"></div>
+            </div>
+        </div>
+
+    </main> 
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
