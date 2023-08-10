@@ -1,4 +1,4 @@
 # random-password-gnrtr
 
 Deployed using Netlify:
-https://quiet-starlight-12bc43.netlify.app/
+https://random-password-generator-themartian.netlify.app/
